@@ -1,0 +1,117 @@
+.features{
+  background:white;
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.features figure{
+  margin: auto;
+  width: 200px;
+  text-align: center;
+}
+
+.features figure img{
+  border: 10x solid white;
+  width: 200px ;
+  border-radius: 50%;
+  box-shadow:gray 0 0 10px ;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+.heading{
+  margin: 20px;
+  color: grey;
+}
+
+.card{
+  margin: 25px;
+}
+
+.card-title{
+  text-align: center;
+  text-decoration: black;
+}
+
+.card-title a{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.btn btn-outline-secondary{
+  display: flex;
+}
+
+.heading p{
+  margin:2px;
+  color: grey;
+  font-size: 20px;
+  
+}
+
+.sustainable{
+  border: 10x solid white;
+  width: 200px;
+  border-radius: 10%;
+  box-shadow:gray 0 0 10px ;
+  float: right;
+  margin: 20px;
+
+}
+
+/*Responsive rules*/
+@media screen and (max-width: 715px){
+.features{
+display: block;
+margin: 25px;
+  }
+  
+}
+
+@media screen and (max-width: 1000px){
+  #body{
+    margin: 20px;
+    padding-top: 20px;
+    width: 70%;
+    height: 70%;
+    display: 80%;
+  }
+  #haeding{
+    margin: 20px;
+    padding-top: 20px;
+  }
+  .cardgroup{
+    margin: 20px;
+  }
+  .features img{
+    height: 150%;
+    width: 150%;
+  }
+}
+
+
+.container{
+  background-color: whitesmoke;
+  margin: 0px;
+}
+
+.firstimage img{
+  width: auto;
+  height: auto;
+}
+
+
+#chartdiv1 {
+  width: 100%;
+  height: 500px;
+}
+
+
+
+
